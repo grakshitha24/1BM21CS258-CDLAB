@@ -8,6 +8,7 @@ void lexicalAnalyzer(char input_code[]) {
     char *punctuations[] = {",", ";", "(", ")", "{", "}"};
 
     char *token = strtok(input_code, " \t\n");
+
     
     while (token != NULL) {
         if (isdigit(token[0])) {
