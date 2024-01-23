@@ -20,7 +20,6 @@ printf("Printed in output.txt\n");
 fclose(yyin);
 fclose(yyout);
 }
-
 int yywrap()
 {
 return 1;
